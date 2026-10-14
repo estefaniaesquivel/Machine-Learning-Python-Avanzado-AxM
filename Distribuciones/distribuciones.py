@@ -7,7 +7,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Solicitar los permisos para trabajar con nuestro Drive
+# Solicitar los permisos para trabajar con el excel
 
 ruta = 'Social_media_impact_on_life.xlsx'
 df = pd.read_excel(ruta)
